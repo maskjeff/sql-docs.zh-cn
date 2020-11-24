@@ -59,7 +59,7 @@ WITH ( k1 int,
 |k1|k2|col3|col4|col5|array_element|  
 |--------|--------|----------|----------|----------|--------------------|  
 |11|*NULL*|"text"|*NULL*|*NULL*|{"k1": 11, "k2": null, "k3": "text"}|  
-|21|"text2"|*NULL*|"text4"|{ "data": "text4" }|{"k1": true, "k2": "text2", "k4": { "data": "text4" } }|  
+|21|"text2"|*NULL*|"text4"|{ "data": "text4" }|{"k1": 21, "k2": "text2", "k4": { "data": "text4" } }|  
 |31|"32"|*NULL*|*NULL*|*NULL*|{"k1": 31, "k2": 32 }|  
 |41|*NULL*|*NULL*|false|{ "data": false }|{"k1": 41, "k2": null,       "k4": { "data": false }    }|  
   
